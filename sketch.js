@@ -153,7 +153,7 @@ function drawTruck(){
 		else{
 			console.log('drawing complete');
 			starterMessage('And this is the car we are going to use to travel and go to all the places... I LOVE YOU');
-			setTimeout(endMessage, 3000);
+			setTimeout(endMessage, 8000);
 
 		}
 	}
@@ -161,7 +161,7 @@ function drawTruck(){
 }
 
 function endMessage(){
-	starterMessage('I LOVE YOU Baby jiiiiiiiiiii');
+	starterMessage('I LOVE YOU Baby jiiiiiiiiiii \n THE ENDa');
 
 }
 
