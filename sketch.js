@@ -102,8 +102,8 @@ function draw() {
 
 function drawCat(){
 	if(strokePath !=null){
-		let newX = x + strokePath.dx *0.4 ;
-    let newY = y + strokePath.dy *0.4 ;
+		let newX = x + strokePath.dx ;//*0.9 ;
+    let newY = y + strokePath.dy ;//*0.9 ;
     if (pen == "down") {
       stroke(255);
       strokeWeight(2);
@@ -135,8 +135,8 @@ function setRomanticMessage(){
 
 function drawTruck(){
 	if(strokePath !=null){
-		let newX = x + strokePath.dx * 0.4;
-    let newY = y + strokePath.dy * 0.4;
+		let newX = x + strokePath.dx;// * 0.4;
+    let newY = y + strokePath.dy ;//* 0.4;
     if (pen == "down") {
       stroke(255);
       strokeWeight(2);
