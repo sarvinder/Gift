@@ -1,0 +1,39 @@
+html, body {
+  margin: 30px;
+  padding: 0;
+}
+
+
+#start{
+	margin: 25px;
+  border: none;
+	background-color: #008CBA;
+	background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  width: 100px;
+	
+}
+#textmessage{
+	margin-top: 30px;
+
+}
+
+.container{
+	display:flex;
+	flex-direction: row ;
+	justify-content:center;
+	
+}
+#scriptcontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  margin: 30px;
+}
+
+#padded{
+  margin-top: 30px;
+}
