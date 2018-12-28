@@ -5,10 +5,9 @@ html, body {
 
 
 #start{
-	margin: 25px;
-  border: none;
-	background-color: #008CBA;
-	background: #fff;
+  margin: 25px;
+  background-color: #008CBA;
+  background: #fff;
   border-radius: 2px;
   display: inline-block;
   height: 50px;
