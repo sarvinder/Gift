@@ -102,8 +102,8 @@ function draw() {
 
 function drawCat(){
 	if(strokePath !=null){
-		let newX = x + strokePath.dx *0.05 ;
-    let newY = y + strokePath.dy *0.05 ;
+		let newX = x + strokePath.dx *0.09 ;
+    let newY = y + strokePath.dy *0.09 ;
     if (pen == "down") {
       stroke(255);
       strokeWeight(2);
