@@ -153,10 +153,15 @@ function drawTruck(){
 		else{
 			console.log('drawing complete');
 			starterMessage('And this is the car we are going to use to travel and go to all the places... I LOVE YOU');
-			//setTimeout(askForTheMessages, 3000);
+			setTimeout(endMessage, 3000);
 
 		}
 	}
+
+}
+
+function endMessage(){
+	starterMessage('I LOVE YOU Baby jiiiiiiiiiii');
 
 }
 
