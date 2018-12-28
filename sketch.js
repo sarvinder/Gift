@@ -129,7 +129,7 @@ function drawCat(){
 
 function setRomanticMessage(){
 	starterMessage('baby jiii you are very special to me.. and i love my baby soooo soooo much...');
-	loadCruiseShip();
+	setTimeout(loadCruiseShip,8000);
 }
 
 
