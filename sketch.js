@@ -161,7 +161,7 @@ function drawTruck(){
 }
 
 function endMessage(){
-	starterMessage('I LOVE YOU Baby jiiiiiiiiiii \n THE ENDa');
+	starterMessage(' I LOVE YOU Baby jiiiiiiiiiii \n THE END');
 
 }
 
